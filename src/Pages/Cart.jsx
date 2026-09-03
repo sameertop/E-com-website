@@ -16,8 +16,8 @@ function Cart() {
 
   const navigate = useNavigate()
 
-  const handleCheckout=()=>{
-navigate ("/checkout")
+  const handleCheckout = () => {
+    navigate("/checkout")
   }
 
   return (

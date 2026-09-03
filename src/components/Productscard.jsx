@@ -28,7 +28,6 @@ function Productscard({ productDetails }) {
     const isinwishlist = wishlistedproduct.some((prod) => prod.id === productDetails.id)
 
 
-    // 
     const handleWishlist = (productDetails) => {
 
         const isProductWishlist = wishlistedproduct.some(
